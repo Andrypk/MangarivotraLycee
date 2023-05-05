@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+header {
+     position: fixed; 
+     top: 0;
+  background-color: dodgerblue;
+  width: 100%;
+  z-index: 5;
+  padding: 5px;
+  margin-left: -8px;
+  height: 70px;
+
+}
+
+header h1{ 
+    position: absolute;
+    left: 30px;
+    top: -15px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 32px;
+    color: white;
+    padding-bottom: 25px;
+    font-family: 'Sigmar', cursive;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+
+.welcome {
+    max-width: 100%;
+    width: 1200px;
+    /* background-color: slateblue; */
+    margin: 10px auto;
+    position: relative;
+    height: 550px;
+    margin-top: 55px; 
+}
+
+nav {
+    position: absolute;
+    right: 55px;
+    
+   
+}
+
+nav h2 a{
+    margin-right: 33px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.welcome img {
+    position: absolute;
+    left: 68%;
+    border-radius: 80%;
+    width: 25%;
+    top: 12%;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(95, 94, 94);  
+}
+
+.welcome h2 {
+    font-size: 30px;
+    position: absolute;
+    left: 3%;
+    text-transform: uppercase;
+    top: 5%;
+    color: #333333;
+    top: 10%;
+    padding-left: 45px;
+}
+
+.welcome h2 span {
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.archives {
+    position: relative;
+    right: -900px;
+    color: rgb(136, 8, 196) ;
+}
+
+
+main.tanana {
+    position: relative;
+    top: 50px;
+    margin: 75px 80px;
+    left: -45px;
+    padding-left: 68px;
+
+}
+
+section h2 {
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color:  rgb(136, 8, 196);
+    font-size: 1.8rem;
+}
+
+section p {
+    font-size: 1.4rem;
+}
+
+.image1 {
+    display: flex;
+   justify-content: space-around;   
+}
+
+.image1 li {
+    position: relative;
+    left: -18px;
+    list-style-type: none;
+    margin-right: 20px;    
+}
+
+.image img {
+    border:  solid 1px darkgray;
+    border-radius: 1rem;   
+}
+
+div.row1 {
+    display: inline;
+   
+}
+
+.smallrow {
+    position: relative;
+    top: -35px;
+}
+
+div.row2 {
+    display: inline;
+    position: relative;
+    
+    right: -560px;
+    top: -249px;    
+}
+
+.fmf  {
+    position: relative;
+    right: 0px;
+    width: 20px;
+}
+
+.sect p {font-size: 1.2rem;}
+
+.row1 h3 {
+    position: relative;
+    top: -43px;
+    left: 25px;  
+}
+
+.row1 p {
+    position: relative;
+    top: -45px;
+    padding-top: 0px;
+}
+
+.row2 h3 {
+    position: relative;
+    top: -43px;
+    left: 25px;  
+}
+
+.row2 p {
+    position: relative;
+    top: -45px;
+    padding-top: 0px;  
+}
+
+
+/* ceci est une animation du nav bar*/
+nav a:hover{color: red;}
+
+/* ceci est une animation du photos remarquables de l equipe */
+.image:hover {transform: scale(1.1);}
+
+/* style du formulaire */
+form {
+    border: solid #dddddd;
+    width: 60%;
+    padding: 15px ;
+    padding-right: 35px;
+    background-color: rgba(30, 143, 255, 0.685);
+    border-radius: 2rem;
+}
+
+
+
+form input[type='text'], form input[type='email'], textarea {
+    padding: 8px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: solid 2px  #dddddd ;
+    border-radius: 2px;
+    margin: 6px 0;
+    border-radius: 1rem;
+}
+
+form input[type='submit'] {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    background-color:#ffffff ;
+    color: dodgerblue;
+    padding: 10px 24px;
+    border-radius: 2rem;
+   padding-right: 15px;
+   
+}
+
+/* positionnement du boutton envoyer */
+form input[type='submit'] {
+ position: relative;
+ right: -200px;
+ left: 190px;
+}
+
+/* positionnement du bas du formulaire */
+.sect2 {
+   position: relative;
+   top: -225px;
+   left: -5px;
+}
+
+/* lien vers fb */
+.facebook {
+    display: flex;
+    justify-content: center;   
+}
+.logo {
+    height: 35px;}
+.fb {
+    position: relative;
+    left: 8px;
+    bottom: -5px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ffffff ;
+}
+
+.form {
+    position: relative;
+}
+/* POSITIONNEMENT DES FORMULAIRES */
+div form{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    
+}
+
+footer p {
+   text-align: center;
+    background-color: rgba(30, 143, 255, 0.849);
+    color: #ffffff;
+    margin-right:-8px;
+    margin-left: -8px;
+}
+
+footer {
+    justify-content: center;
+    height: 15px;
+}
